@@ -1,0 +1,40 @@
+{
+  "name": "firebase-functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "build": "cross-env BABEL_ENV=production babel src --out-dir ./",
+    "buildDir": "cross-env BABEL_ENV=production babel src --out-dir ./",
+    "bundle": "webpack --config ./config/webpack.config.js",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "yarn build ; firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.3.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.1.6",
+    "webpack-cli": "^3.3.9"
+  },
+  "private": true,
+  "version": "0.0.11",
+  "main": "index.js",
+  "keywords": [
+    "firebase",
+    "saas"
+  ],
+  "author": "kamescg",
+  "license": "MIT"
+}
