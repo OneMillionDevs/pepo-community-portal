@@ -54,3 +54,9 @@ During the original event (EthDenver) our focus was curating "aha moments" and "
 ### Profile Page
 
 The profile page should highlight a 1MillionDevs Community Member video contributions.
+
+### Current Demo Screenshots
+
+![image](https://user-images.githubusercontent.com/3408362/75002568-bffa7800-5419-11ea-95be-05581c113d59.png)
+![image](https://user-images.githubusercontent.com/3408362/75001984-d0a9ee80-5417-11ea-8c2c-430e90e3c8f9.png)
+![image](https://user-images.githubusercontent.com/3408362/75002109-35fddf80-5418-11ea-89f2-f8a0d1eb1047.png)
