@@ -22,7 +22,7 @@ export default props => {
 
       <Atom.Flex alignCenter>
         <Atom.Span sx={{ ml: 1, fontSize: 1 }}>
-          <a href="">HORIZIN</a>
+          <a href="/">Community Portal</a>
         </Atom.Span>
       </Atom.Flex>
     </Atom.Flex>

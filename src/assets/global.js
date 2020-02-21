@@ -1,3 +1,3 @@
 module.exports = {
-  siteName: "FirebaseBoilerplate"
+  siteName: "1MillionDevs"
 };
