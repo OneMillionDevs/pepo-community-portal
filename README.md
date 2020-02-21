@@ -1,14 +1,33 @@
 # 1MillionDevs Pepo Community Portal
 
+#### Setup
+
+```
+$ yarn
+```
+
+#### Development
+
+```
+$ yarn start
+```
+
+#### Production
+
+```
+$ yarn build
+$ yarn deploy
+```
+
 ## Overview
 
-The Community Portal is an experiment to test short-form video updates in the Ethereum community.
+The **Community Portal** is an experiment to test short-form video updates in the Ethereum community.
 
 The Pepo Community Portal is a playground for the 1MD video community. Pepo focuses on 30 second videos. Videos can be easily replied to and be tipped. The tip is transered as a Pepo token. The Pepo token runs on an OST sidechain.
 
 experiment: https://ideas.onemilliondevs.com
-
-reference: https://pepo.com
+<br/>development: https://pepo-community-portal.firebaseapp.com
+<br/>reference: https://pepo.com
 
 ### Hypothesis
 
